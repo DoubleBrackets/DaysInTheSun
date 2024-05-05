@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Cysharp.Threading.Tasks;
 using UnityEngine;
 using Yarn.Unity;
 
@@ -11,6 +12,8 @@ public class DialogueService : MonoBehaviour
     
     [SerializeField]
     private DialogueRunner _dialogueRunner;
+    
+    private Queue<string> _dialogueQueue = new Queue<string>();
     
     private void Awake()
     {
@@ -22,13 +25,30 @@ public class DialogueService : MonoBehaviour
         {
             Destroy(gameObject);
         }
-    } 
-    
+        
+        StartDialogueFromQueue().Forget();
+    }
+
+    private async UniTaskVoid StartDialogueFromQueue()
+    {
+        while (true)
+        {
+            await UniTask.Yield();
+
+            if (!_dialogueRunner.IsDialogueRunning && _dialogueQueue.Count > 0)
+            {
+                StartDialogue(_dialogueQueue.Dequeue());
+            }
+        }
+    }
+
     public bool StartDialogue(string dialogueName)
     {
         if (_dialogueRunner.IsDialogueRunning)
         {
-            return false;
+            Debug.Log("Queueing dialogue: " + dialogueName);
+            _dialogueQueue.Enqueue(dialogueName);
+            return true;
         }
         _dialogueRunner.StartDialogue(dialogueName);
         return true;

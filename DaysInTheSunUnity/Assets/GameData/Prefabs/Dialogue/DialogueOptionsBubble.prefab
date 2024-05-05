@@ -48,7 +48,7 @@ MonoBehaviour:
   _optionsBubblePrefab: {fileID: 6273563104214811227, guid: ff285d9a67ee75c479bfb98368d75a98,
     type: 3}
   _optionsContainer: {fileID: 821558637601703654}
-  _responseTime: 255
+  _responseTime: 8
 --- !u!1 &4074379008684752636
 GameObject:
   m_ObjectHideFlags: 0

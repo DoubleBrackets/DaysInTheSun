@@ -64,12 +64,20 @@ public class BubbleOptionsView : DialogueViewBase
     
     private void OnOptionsSelected(int index)
     {
+        if(_onOptionSelected == null)
+        {
+            return;
+        }
+        
         foreach(var optionsBubble in _optionsBubbles)
         {
             optionsBubble.Dispose();
         }
+
         
         _onOptionSelected?.Invoke(index);
+        
+        _onOptionSelected = null;
         
         _optionsBubbles.Clear();
         

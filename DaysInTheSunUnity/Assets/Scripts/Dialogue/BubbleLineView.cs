@@ -96,7 +96,7 @@ public class BubbleLineView : DialogueViewBase
         
         HoldText(displayText, _cancellationTokenSource.Token).Forget();
         
-        // _nextButton.onClick.AddListener(OnNextButtonClicked);
+        _nextButton.onClick.AddListener(OnNextButtonClicked);
     }
 
     private async UniTaskVoid HoldText(string text, CancellationToken token)
@@ -126,6 +126,7 @@ public class BubbleLineView : DialogueViewBase
     {
         Hide();
         _nextButton.onClick.RemoveListener(OnNextButtonClicked);
+        _cancellationTokenSource.Cancel();
         _onDialogueLineFinished();
     }
 

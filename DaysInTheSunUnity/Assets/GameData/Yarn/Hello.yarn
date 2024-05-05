@@ -2,20 +2,70 @@
 tags: 
 position: 0,0
 ---
-f: My <shake>first</shake> ever Yarn script in Unity!
-p: I can't believe it!
+f: That was the final burial rite. We are finished.
+p: Still can't believe the old hag finally kicked the bucket.
+p: Hell, even had a nice grave all made out, too.
+f: She was bedridden the last three months.
+f: Why so suprised?
 
--> Gosh!
-    <<jump TakeTwo>>
--> Incredible!
--> I'm amazed!
-<<wait  2>>
-f: Anyway, time to get writing!
+-> Blank
+    p: ...
+-> Didn't believe it
+    p: I dunno, I thought she'd jump out of bed after 3 months
+    p: Saying it was another one of her <wave>super special</wave> tests or something.
+-> She's been sick before
+    p: She's always been a magnet for strange diseases. 
+    p: Always stuck through them fine...
+
+f: Hm. Let's return to the gate.
 ===
 
-title: TakeTwo
+title: BridgeDialogue
 tags: 
 position: 0,0
 ---
-f: Again and again, trying forevermore.
+f: Ah, yes.
+f: I have a message for you, from the master. 
+f: Before she passed.
+-> Blank
+    p: ...
+-> What is it?
+    p: I'm listening.
+-> Why didn't she tell me directly?
+    f: I am unsure.
+    p: Hah. She probably thought it would make it more dramatic or something.
+
+f: <wave>HI THERE KIDDO</wave>
+f: <shake>Cough</shake>
+f: If you're hearing this from ol' blockhead here then I'm probably dead
+f: <wiggle>Hehehehehe</wiggle>
+f: I've always wanted to say that line at least once in my life! 
+f: Otherwise I would've just told you this in person <bounce>heh!</bounce>
+p: That old hag...
+f: <shake>Cough</shake>
+f: To cut to the chase, you're pretty much free now.
+f: Blocky over here's got the warp mechanism, and S'not like he's got anything else to do now.
+f: You're free to go where you please.
+f: It was nice teachin' ya for the past few years, but there's a lotta neat stuff out there.
+f: That's why I'm locking you out of my place after I kick it, <wiggle>hehe</wiggle>
+f: You two can handle yourselves fine.
+f: <shake>JULES OUT!</shake>
+f: <shake>Cough</shake>
+===
+title: PortalAreaDialogue
+tags: 
+position: 0,0
+---
+f: It seems she did lock the path back home.
+f: Only onto the next place, then.
+-> Blank
+    p: ...
+-> Let's go!
+    p: Alright, blocky. Warp us away!
+-> Where's that'?
+    p: Where exactly can you send us?
+    f: There's no way to know without going there.
+    f: But in accordance with master's wishes, anywhere far should suffice.
+
+f: I'm ready. Touch the silverglass when you wish to depart.
 ===

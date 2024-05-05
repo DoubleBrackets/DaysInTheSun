@@ -34,7 +34,7 @@ public class CameraController : MonoBehaviour
         
     }
 
-    private void Update()
+    private void LateUpdate()
     {
         var input = _inputProvider.GetMouseDelta();
 
