@@ -6,12 +6,24 @@ using UnityEngine.Serialization;
 
 public class UserInputProvider : MonoBehaviour, IInputProvider
 {
-    [SerializeField]
-    private Transform _lookDirectionSource;
+    
+    public static UserInputProvider Instance { get; private set; }
     
     private bool _jumpPressed;
     private Vector2 _movementInput;
-    
+
+    private void Awake()
+    {
+        if(Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
     private void Update()
     {
         if(Input.GetKey(KeyCode.Space))
@@ -32,7 +44,7 @@ public class UserInputProvider : MonoBehaviour, IInputProvider
 
     public Vector3 GetLookDirection()
     {
-        return _lookDirectionSource.forward;
+        return Camera.main.transform.forward;
     }
 
     public Vector2 GetMovementInput()

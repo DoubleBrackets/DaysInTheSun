@@ -35,22 +35,18 @@ public class DialogueService : MonoBehaviour
         {
             await UniTask.Yield();
 
-            if (!_dialogueRunner.IsDialogueRunning && _dialogueQueue.Count > 0)
+            if (!_dialogueRunner.IsDialogueRunning && _dialogueQueue.Count > 0 && _dialogueRunner.dialogueViews.Length > 0)
             {
-                StartDialogue(_dialogueQueue.Dequeue());
+                Debug.Log("Starting queued dialogue: " + _dialogueQueue.Peek());
+                _dialogueRunner.StartDialogue(_dialogueQueue.Dequeue());
             }
         }
     }
 
     public bool StartDialogue(string dialogueName)
     {
-        if (_dialogueRunner.IsDialogueRunning)
-        {
-            Debug.Log("Queueing dialogue: " + dialogueName);
-            _dialogueQueue.Enqueue(dialogueName);
-            return true;
-        }
-        _dialogueRunner.StartDialogue(dialogueName);
+        Debug.Log("Queueing dialogue: " + dialogueName);
+        _dialogueQueue.Enqueue(dialogueName);
         return true;
     }
 

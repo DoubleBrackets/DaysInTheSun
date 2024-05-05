@@ -1,15 +1,16 @@
 using System;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class ProtagController : MonoBehaviour
 {
+    public static ProtagController Instance;
+    
+    public Vector3 Facing => _meshBody.forward;
+    
     [Header("Dependencies")]
 
     [SerializeField]
     private CharacterController _charController;
-
-    [SerializeField]
-    private GameObject _inputProviderContainer;
 
     [SerializeField]
     private Transform _meshBody;
@@ -39,7 +40,8 @@ public class PlayerController : MonoBehaviour
 
     private void Awake()
     {
-        _inputProvider = _inputProviderContainer.GetComponent<IInputProvider>();
+        Instance = this;
+        _inputProvider = UserInputProvider.Instance;
     }
 
     private void Update()

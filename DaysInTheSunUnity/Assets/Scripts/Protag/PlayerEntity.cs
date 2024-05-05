@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class PlayerEntity : MonoBehaviour
 {
     [SerializeField]
-    private PlayerController _controller;
+    private ProtagController _controller;
 
     [SerializeField]
     private GameObject _mesh;

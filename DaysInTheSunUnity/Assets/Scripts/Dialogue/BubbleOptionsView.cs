@@ -29,7 +29,7 @@ public class BubbleOptionsView : DialogueViewBase
     {
         // log currently selected game object
 
-        Debug.Log(EventSystem.current.IsPointerOverGameObject());
+        // Debug.Log(EventSystem.current.IsPointerOverGameObject());
     }
 
     private void Start()

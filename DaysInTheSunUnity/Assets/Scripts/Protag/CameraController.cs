@@ -30,7 +30,7 @@ public class CameraController : MonoBehaviour
 
     private void Awake()
     {
-        _inputProvider = _inputProviderContainer.GetComponent<UserInputProvider>();
+        _inputProvider = UserInputProvider.Instance;
         
     }
 
