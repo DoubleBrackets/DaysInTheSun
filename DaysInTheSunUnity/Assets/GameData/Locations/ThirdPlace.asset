@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10ff9807600485247b81f45ae3fb5c15, type: 3}
-  m_Name: Reflections
+  m_Name: ThirdPlace
   m_EditorClassIdentifier: 
-  <SceneName>k__BackingField: Reflections
-  <TitleText>k__BackingField: 'II: And It is Fine'
+  <SceneName>k__BackingField: 
+  <TitleText>k__BackingField: 'III: A Candle in the Sun'
   <BackgroundMusic>k__BackingField: {fileID: 0}
   <AmbientSound>k__BackingField: {fileID: 0}
