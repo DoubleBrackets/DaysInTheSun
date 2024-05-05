@@ -271,7 +271,7 @@ PrefabInstance:
     - target: {fileID: 2134010828388824762, guid: 95e97bb6522e01a4b95d3a28a3e09f84,
         type: 3}
       propertyPath: _dialogueNodeName
-      value: HoHum
+      value: SceneTwo
       objectReference: {fileID: 0}
     - target: {fileID: 5201138641998742110, guid: 95e97bb6522e01a4b95d3a28a3e09f84,
         type: 3}

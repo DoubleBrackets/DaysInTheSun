@@ -13,9 +13,12 @@ MonoBehaviour:
   m_Name: Reflections
   m_EditorClassIdentifier: 
   <SceneName>k__BackingField: Reflections
-  <TitleText>k__BackingField: 'II: And It is Fine'
+  <TitleText>k__BackingField: 'II: A Candle in the Sun'
   <BackgroundMusic>k__BackingField: {fileID: 0}
   <BackgroundMusicVolume>k__BackingField: 0.6
   <AmbientSound>k__BackingField: {fileID: 8300000, guid: 172f3e92c08325945baf49102e9429aa,
     type: 3}
   <AmbientSoundVolume>k__BackingField: 0.4
+  <FogEnabled>k__BackingField: 0
+  <FogColor>k__BackingField: {r: 0, g: 0, b: 0, a: 0}
+  <FogDensity>k__BackingField: 0
