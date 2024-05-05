@@ -16,7 +16,10 @@ MonoBehaviour:
   <TitleText>k__BackingField: 'I: The dead rarely leave the living alone'
   <BackgroundMusic>k__BackingField: {fileID: 8300000, guid: 442db1d37f97cfd4d93d7e13cbae0e78,
     type: 3}
-  <BackgroundMusicVolume>k__BackingField: 0.3
+  <BackgroundMusicVolume>k__BackingField: 0.4
   <AmbientSound>k__BackingField: {fileID: 8300000, guid: 93b042dcdcb6f1b4cb64a31fee856c5b,
     type: 3}
-  <AmbientSoundVolume>k__BackingField: 0.5
+  <AmbientSoundVolume>k__BackingField: 0.55
+  <FogEnabled>k__BackingField: 1
+  <FogColor>k__BackingField: {r: 0.8117647, g: 0.77254903, b: 0.7764706, a: 1}
+  <FogDensity>k__BackingField: 0.02

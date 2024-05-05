@@ -22,4 +22,13 @@ public class LocationSO : ScriptableObject
     
     [field: SerializeField]
     public float AmbientSoundVolume { get; private set; }
+    
+    [field: SerializeField]
+    public bool FogEnabled { get; private set; }
+    
+    [field: SerializeField]
+    public Color FogColor { get; private set; }
+    
+    [field: SerializeField]
+    public float FogDensity { get; private set; }
 }

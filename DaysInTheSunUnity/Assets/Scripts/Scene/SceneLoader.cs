@@ -78,6 +78,10 @@ public class SceneLoader : MonoBehaviour
             _ambientSoundAudioSource.Stop();
         }
         
+        RenderSettings.fog = location.FogEnabled;
+        RenderSettings.fogColor = location.FogColor;
+        RenderSettings.fogDensity = location.FogDensity;
+        
         await _sceneTransitionUI.FadeIn();
     }
 }
