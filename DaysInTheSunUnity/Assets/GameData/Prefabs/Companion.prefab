@@ -195,7 +195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _springConstant: 7
-  _dampingConstant: 2
+  _dampingConstant: 3
   _rb: {fileID: 3828312100127495356}
   _radius: 1.5
   _baseHeight: 1.2
@@ -429,18 +429,48 @@ PrefabInstance:
       propertyPath: m_Colors.m_DisabledColor.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6104169485096293611, guid: 77d0656175880704aa17fc5f2a9a27b0,
+        type: 3}
+      propertyPath: _text
+      value: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+      objectReference: {fileID: 0}
+    - target: {fileID: 6104169485096293611, guid: 77d0656175880704aa17fc5f2a9a27b0,
+        type: 3}
+      propertyPath: typewriterStartsAutomatically
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6356195533715084497, guid: 77d0656175880704aa17fc5f2a9a27b0,
         type: 3}
       propertyPath: m_fontAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 1fe135bf59087774984316dd8efe4826,
+      objectReference: {fileID: 11400000, guid: 47a328ea6139c432f835869bc8aa3473,
         type: 2}
+    - target: {fileID: 6356195533715084497, guid: 77d0656175880704aa17fc5f2a9a27b0,
+        type: 3}
+      propertyPath: m_fontColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356195533715084497, guid: 77d0656175880704aa17fc5f2a9a27b0,
+        type: 3}
+      propertyPath: m_fontColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356195533715084497, guid: 77d0656175880704aa17fc5f2a9a27b0,
+        type: 3}
+      propertyPath: m_fontColor.r
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6356195533715084497, guid: 77d0656175880704aa17fc5f2a9a27b0,
         type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 8460808212996965458, guid: 1fe135bf59087774984316dd8efe4826,
+      objectReference: {fileID: -7532908165846141946, guid: 47a328ea6139c432f835869bc8aa3473,
         type: 2}
+    - target: {fileID: 6356195533715084497, guid: 77d0656175880704aa17fc5f2a9a27b0,
+        type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278190080
+      objectReference: {fileID: 0}
     - target: {fileID: 6474049634380193727, guid: 77d0656175880704aa17fc5f2a9a27b0,
         type: 3}
       propertyPath: m_SizeDelta.y
@@ -451,6 +481,21 @@ PrefabInstance:
       propertyPath: _characterName
       value: f
       objectReference: {fileID: 0}
+    - target: {fileID: 7340677130275245977, guid: 77d0656175880704aa17fc5f2a9a27b0,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340677130275245977, guid: 77d0656175880704aa17fc5f2a9a27b0,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.6745283
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340677130275245977, guid: 77d0656175880704aa17fc5f2a9a27b0,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.7671221
+      objectReference: {fileID: 0}
     - target: {fileID: 7373404692753882625, guid: 77d0656175880704aa17fc5f2a9a27b0,
         type: 3}
       propertyPath: m_Name
@@ -459,8 +504,61 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1065600578327722965, guid: 77d0656175880704aa17fc5f2a9a27b0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5131864824969740804}
   m_SourcePrefab: {fileID: 100100000, guid: 77d0656175880704aa17fc5f2a9a27b0, type: 3}
+--- !u!1 &314292678669110021 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1065600578327722965, guid: 77d0656175880704aa17fc5f2a9a27b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 762605400158154960}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5131864824969740804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314292678669110021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a6945b90dcd0c4b81619c0d8b5c283, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useTypeWriter: 1
+  startTypewriterMode: 3
+  hideAppearancesOnSkip: 0
+  hideDisappearancesOnSkip: 1
+  triggerEventsOnSkip: 0
+  resetTypingSpeedAtStartup: 1
+  disappearanceOrientation: 0
+  onTextShowed:
+    m_PersistentCalls:
+      m_Calls: []
+  onTypewriterStart:
+    m_PersistentCalls:
+      m_Calls: []
+  onTextDisappeared:
+    m_PersistentCalls:
+      m_Calls: []
+  onCharacterVisible:
+    m_PersistentCalls:
+      m_Calls: []
+  onMessage:
+    m_PersistentCalls:
+      m_Calls: []
+  waitForNormalChars: 0.03
+  waitLong: 0.6
+  waitMiddle: 0.2
+  avoidMultiplePunctuactionWait: 0
+  waitForNewLines: 1
+  waitForLastCharacter: 1
+  useTypewriterWaitForDisappearances: 1
+  disappearanceWaitTime: 0.015
+  disappearanceSpeedMultiplier: 1
 --- !u!4 &2520428178993641138 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2913562332153267810, guid: 77d0656175880704aa17fc5f2a9a27b0,

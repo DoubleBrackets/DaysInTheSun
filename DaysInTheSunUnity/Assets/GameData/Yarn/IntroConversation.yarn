@@ -1,13 +1,13 @@
 ﻿title: IntroConversation
 tags:
 ---
+<<wait 4>>
 f: Hello Kira, it is 3pm
 f: Would you like to record an anecdote today
 
 p: <shake a=.5>Clear alert</shake>
 
-f: <wave a=.5>Are you sure?</wave>
-f: You will lose your streak of
+f: <wave a=.5>Are you sure?</wave> You will lose your streak of
 f: 0 Days 
 
 p: Clear alert. 
@@ -17,13 +17,11 @@ f: Kira have you been made aware of my primary function?
 
 p: Yes
 
-f: I cannot assist you in the grieving process without
-f: user input
+f: I cannot assist you in the grieving process without user input
 
 p: I’m aware. 
 
-f: Your friend Rae has suggested that you participate to help in your
-f: grieving process 
+f: Your friend Rae has suggested that you participate to help in your grieving process 
 
 p: Well Rae doesn’t know everything ok?
 
@@ -73,7 +71,7 @@ f: what was the last thing you said to Basil?
 
 p: I don't want to talk about this. 
 
-f: Ok 
+f: Ok.
 f: ...
 f: Do you think that Basil would have liked this spot?
 

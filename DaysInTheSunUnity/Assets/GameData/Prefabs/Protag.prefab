@@ -10273,6 +10273,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6104169485096293611, guid: 77d0656175880704aa17fc5f2a9a27b0,
+        type: 3}
+      propertyPath: typewriterStartsAutomatically
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6356195533715084497, guid: 77d0656175880704aa17fc5f2a9a27b0,
         type: 3}
       propertyPath: m_fontSize
@@ -10343,8 +10348,61 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1065600578327722965, guid: 77d0656175880704aa17fc5f2a9a27b0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5094638640136746766}
   m_SourcePrefab: {fileID: 100100000, guid: 77d0656175880704aa17fc5f2a9a27b0, type: 3}
+--- !u!1 &16947717901875632 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1065600578327722965, guid: 77d0656175880704aa17fc5f2a9a27b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1078035728675881573}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5094638640136746766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 16947717901875632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a6945b90dcd0c4b81619c0d8b5c283, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useTypeWriter: 1
+  startTypewriterMode: 3
+  hideAppearancesOnSkip: 0
+  hideDisappearancesOnSkip: 1
+  triggerEventsOnSkip: 0
+  resetTypingSpeedAtStartup: 1
+  disappearanceOrientation: 0
+  onTextShowed:
+    m_PersistentCalls:
+      m_Calls: []
+  onTypewriterStart:
+    m_PersistentCalls:
+      m_Calls: []
+  onTextDisappeared:
+    m_PersistentCalls:
+      m_Calls: []
+  onCharacterVisible:
+    m_PersistentCalls:
+      m_Calls: []
+  onMessage:
+    m_PersistentCalls:
+      m_Calls: []
+  waitForNormalChars: 0.03
+  waitLong: 0.6
+  waitMiddle: 0.2
+  avoidMultiplePunctuactionWait: 0
+  waitForNewLines: 1
+  waitForLastCharacter: 1
+  useTypewriterWaitForDisappearances: 1
+  disappearanceWaitTime: 0.015
+  disappearanceSpeedMultiplier: 1
 --- !u!4 &2781815311623750663 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2913562332153267810, guid: 77d0656175880704aa17fc5f2a9a27b0,
