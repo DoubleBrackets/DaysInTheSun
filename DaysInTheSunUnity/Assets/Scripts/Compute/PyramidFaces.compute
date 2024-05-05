@@ -1,0 +1,39 @@
+#pragma kernel Main
+
+#include "ComputeHelpers.hlsl"
+
+// Vertex on source mesh
+struct SourceVertex {
+    float3 position : POSITION;
+    float2 uv;
+};
+
+// Vertex on generated mesh
+struct DrawVertex {
+    float3 positionWS;
+    float2 uv;
+};
+
+// 3 vertiecs at once to draw a triangle
+struct DrawTriangle {
+    float3 normalWS;
+    DrawVertex vertices[3];
+}
+
+// Compute buffers
+StructuredBuffer<SourceVertex> _SourceVertices;
+StructuredBuffer<int> _SourceTriangles;
+
+// stack like buffer 
+AppendStructuredBuffer<DrawTriangle> _DrawTriangles;
+
+// Variables from c#
+int _NumSourceTriangles;
+float _PyramidHeight;
+float4x4 _LocalToWorld;
+
+[numthreads(128, 1, 1)]
+void Main(uint3 id : SV_DispatchThreadID)
+{
+    
+}

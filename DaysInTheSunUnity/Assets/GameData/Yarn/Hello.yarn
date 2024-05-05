@@ -1,0 +1,21 @@
+﻿title: Start
+tags: 
+position: 0,0
+---
+f: My <shake>first</shake> ever Yarn script in Unity!
+p: I can't believe it!
+
+-> Gosh!
+    <<jump TakeTwo>>
+-> Incredible!
+-> I'm amazed!
+<<wait  2>>
+f: Anyway, time to get writing!
+===
+
+title: TakeTwo
+tags: 
+position: 0,0
+---
+f: Again and again, trying forevermore.
+===
