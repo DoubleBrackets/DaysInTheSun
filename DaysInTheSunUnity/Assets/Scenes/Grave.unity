@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028326, g: 0.22571333, b: 0.30692202, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7541,6 +7541,21 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3080798485962669138, guid: 99df5ba014eb61948b0f8db1676198d2,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.9622642
+      objectReference: {fileID: 0}
+    - target: {fileID: 3080798485962669138, guid: 99df5ba014eb61948b0f8db1676198d2,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.49474904
+      objectReference: {fileID: 0}
+    - target: {fileID: 3080798485962669138, guid: 99df5ba014eb61948b0f8db1676198d2,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.9379061
+      objectReference: {fileID: 0}
     - target: {fileID: 3798396949552083788, guid: 99df5ba014eb61948b0f8db1676198d2,
         type: 3}
       propertyPath: m_Camera
@@ -7576,6 +7591,51 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5240629915848697245, guid: 99df5ba014eb61948b0f8db1676198d2,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.atime0
+      value: 578
+      objectReference: {fileID: 0}
+    - target: {fileID: 5240629915848697245, guid: 99df5ba014eb61948b0f8db1676198d2,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.ctime1
+      value: 65342
+      objectReference: {fileID: 0}
+    - target: {fileID: 5240629915848697245, guid: 99df5ba014eb61948b0f8db1676198d2,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.b
+      value: 0.5254902
+      objectReference: {fileID: 0}
+    - target: {fileID: 5240629915848697245, guid: 99df5ba014eb61948b0f8db1676198d2,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.g
+      value: 0.3647059
+      objectReference: {fileID: 0}
+    - target: {fileID: 5240629915848697245, guid: 99df5ba014eb61948b0f8db1676198d2,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.r
+      value: 0.6784314
+      objectReference: {fileID: 0}
+    - target: {fileID: 5240629915848697245, guid: 99df5ba014eb61948b0f8db1676198d2,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.b
+      value: 0.9999817
+      objectReference: {fileID: 0}
+    - target: {fileID: 5240629915848697245, guid: 99df5ba014eb61948b0f8db1676198d2,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.g
+      value: 0.16509432
+      objectReference: {fileID: 0}
+    - target: {fileID: 5240629915848697245, guid: 99df5ba014eb61948b0f8db1676198d2,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5240629915848697245, guid: 99df5ba014eb61948b0f8db1676198d2,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.m_ColorSpace
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5482395428333729154, guid: 99df5ba014eb61948b0f8db1676198d2,
         type: 3}
       propertyPath: m_Name
@@ -7585,6 +7645,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8019225828289904457, guid: 99df5ba014eb61948b0f8db1676198d2,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.75308806
+      objectReference: {fileID: 0}
+    - target: {fileID: 8019225828289904457, guid: 99df5ba014eb61948b0f8db1676198d2,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.495283
+      objectReference: {fileID: 0}
+    - target: {fileID: 8019225828289904457, guid: 99df5ba014eb61948b0f8db1676198d2,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
