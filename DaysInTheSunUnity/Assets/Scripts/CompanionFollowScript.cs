@@ -5,8 +5,6 @@ using UnityEngine;
 
 public class CompanionFollowScript : MonoBehaviour
 {
-    [SerializeField]
-    private Transform _target;
 
     [SerializeField]
     private float _springConstant;
@@ -31,6 +29,13 @@ public class CompanionFollowScript : MonoBehaviour
 
     private Vector3 _targetPosition;
     
+    private Transform _target;
+
+    private void Start()
+    {
+        _target = ProtagController.Instance.MeshBody.transform;
+    }
+
     private void Update()
     {
         UpdateTargetPosition();

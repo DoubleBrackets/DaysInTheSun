@@ -27,8 +27,10 @@ public class SceneLoader : MonoBehaviour
 #endif
     }
 
-    public async UniTask LoadLevel(string sceneName)
+    public async UniTask LoadLevel(LocationSO location)
     {
+        string sceneName = location.SceneName;
+        
         if (SceneManager.GetSceneByName(currentLevel).isLoaded)
         {
             await SceneManager.UnloadSceneAsync(currentLevel);

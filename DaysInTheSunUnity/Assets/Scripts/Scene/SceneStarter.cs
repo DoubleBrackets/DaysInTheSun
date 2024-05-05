@@ -6,10 +6,10 @@ using UnityEngine;
 public class SceneStarter : MonoBehaviour
 {
     [SerializeField]
-    private string _sceneName;
+    private BootupConfigSO _bootupConfigSO;
 
     private void Start()
     {
-        SceneLoader.Instance.LoadLevel(_sceneName).Forget();
+        SceneLoader.Instance.LoadLevel(_bootupConfigSO.InitialLocation).Forget();
     }
 }

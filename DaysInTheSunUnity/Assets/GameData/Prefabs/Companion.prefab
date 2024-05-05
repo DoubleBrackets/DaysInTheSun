@@ -194,12 +194,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2732fa6d5a49359438f4500cc1f9ab45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _target: {fileID: 0}
   _springConstant: 7
   _dampingConstant: 2
   _rb: {fileID: 3828312100127495356}
   _radius: 1.5
-  _baseHeight: 0.25
+  _baseHeight: 1.2
   _heightOffset: 0.15
   _heightWaveSpeed: 1.2
 --- !u!54 &3828312100127495356

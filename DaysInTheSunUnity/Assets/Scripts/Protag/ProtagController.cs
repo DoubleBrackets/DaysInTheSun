@@ -7,6 +7,8 @@ public class ProtagController : MonoBehaviour
     
     public Vector3 Facing => _meshBody.forward;
     
+    public Transform MeshBody => _meshBody;
+    
     [Header("Dependencies")]
 
     [SerializeField]
