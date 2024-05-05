@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <SceneName>k__BackingField: Grave
   <TitleText>k__BackingField: 'I: The dead rarely leave the living alone'
-  <BackgroundMusic>k__BackingField: {fileID: 8300000, guid: de693cf0a9f74e44c857b4eadfe11a4c,
+  <BackgroundMusic>k__BackingField: {fileID: 8300000, guid: 442db1d37f97cfd4d93d7e13cbae0e78,
     type: 3}
-  <BackgroundMusicVolume>k__BackingField: 0.6
+  <BackgroundMusicVolume>k__BackingField: 0.3
   <AmbientSound>k__BackingField: {fileID: 8300000, guid: 93b042dcdcb6f1b4cb64a31fee856c5b,
     type: 3}
-  <AmbientSoundVolume>k__BackingField: 0.8
+  <AmbientSoundVolume>k__BackingField: 0.5

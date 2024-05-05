@@ -47,7 +47,7 @@ public class AudioManager : MonoBehaviour
         
         if (clip)
         {
-            AudioSource.PlayClipAtPoint(clip, pos);
+            AudioSource.PlayClipAtPoint(clip, pos, 5f);
         }
     }
 }
