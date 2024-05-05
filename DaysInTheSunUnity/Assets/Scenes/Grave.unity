@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028326, g: 0.22571333, b: 0.30692202, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7879,6 +7879,11 @@ PrefabInstance:
         type: 3}
       propertyPath: Damping.x
       value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4347873955196622079, guid: 44da99e9f5c96b44d93a099abd850478,
+        type: 3}
+      propertyPath: CameraRadius
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 4347873955196622079, guid: 44da99e9f5c96b44d93a099abd850478,
         type: 3}
