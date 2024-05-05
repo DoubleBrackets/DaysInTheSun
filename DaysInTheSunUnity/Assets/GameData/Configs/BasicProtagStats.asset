@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e89921af4afb5c0469e7a141b8a9a7b7, type: 3}
   m_Name: BasicProtagStats
   m_EditorClassIdentifier: 
-  <MoveSpeed>k__BackingField: 4
+  <MoveSpeed>k__BackingField: 4.5
   <MoveAccel>k__BackingField: 35
   <MoveFriction>k__BackingField: 35
   <JumpVelocity>k__BackingField: 5.5
