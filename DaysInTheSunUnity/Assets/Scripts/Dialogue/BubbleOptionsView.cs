@@ -29,12 +29,17 @@ public class BubbleOptionsView : DialogueViewBase
     {
         // log currently selected game object
 
-        // Debug.Log(EventSystem.current.IsPointerOverGameObject());
+        Debug.Log(EventSystem.current.IsPointerOverGameObject() + " " + EventSystem.current.currentSelectedGameObject);
     }
 
     private void Start()
     {
         DialogueService.Instance.AddView(this);
+    }
+
+    private void OnDestroy()
+    {
+        DialogueService.Instance.RemoveView(this);
     }
 
     public override void InterruptLine(LocalizedLine dialogueLine, Action onDialogueLineFinished)

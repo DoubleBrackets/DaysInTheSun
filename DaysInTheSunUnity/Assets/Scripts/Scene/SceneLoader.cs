@@ -38,6 +38,8 @@ public class SceneLoader : MonoBehaviour
 
     public async UniTask LoadLevel(LocationSO location)
     {
+        DialogueService.Instance.EndDialogue();
+        
         await _sceneTransitionUI.FadeOut();
         
         string sceneName = location.SceneName;

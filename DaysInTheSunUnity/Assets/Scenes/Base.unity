@@ -642,7 +642,7 @@ CanvasGroup:
   m_Enabled: 1
   m_Alpha: 1
   m_Interactable: 0
-  m_BlocksRaycasts: 1
+  m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
 --- !u!1 &1025027850
 GameObject:
@@ -921,8 +921,8 @@ CanvasGroup:
   m_GameObject: {fileID: 1195473352}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 1
-  m_BlocksRaycasts: 1
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
 --- !u!224 &1392526738 stripped
 RectTransform:

@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5910934065582125760}
   - component: {fileID: 1413535972602785228}
+  - component: {fileID: 8563863818852716251}
   m_Layer: 5
   m_Name: DialogueOptionsBubble
   m_TagString: Untagged
@@ -49,6 +50,19 @@ MonoBehaviour:
     type: 3}
   _optionsContainer: {fileID: 821558637601703654}
   _responseTime: 8
+--- !u!114 &8563863818852716251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99333786727677802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f76aa40d691ea645aa6a0bf384ded68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _canvas: {fileID: 1259312374492390563}
 --- !u!1 &4074379008684752636
 GameObject:
   m_ObjectHideFlags: 0

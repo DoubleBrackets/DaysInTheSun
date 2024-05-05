@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-public class BoxVisualizer : MonoBehaviour
+public class SceneChangeZone : MonoBehaviour
 {
+    [SerializeField]
+    private LocationSO _locationSO;
 
     private BoxCollider _boxCollider;
     
@@ -15,16 +17,25 @@ public class BoxVisualizer : MonoBehaviour
 #endif
     }
 
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            SceneLoader.Instance.LoadLevel(_locationSO);
+            gameObject.SetActive(false);
+        }
+    }
+
     private void OnDrawGizmos()
     {
         if (_boxCollider != null)
         {
-            Gizmos.color = Color.white;
+            Gizmos.color = Color.green;
             Gizmos.matrix = transform.localToWorldMatrix;
             Gizmos.DrawWireCube(_boxCollider.center, _boxCollider.bounds.size);
             Gizmos.matrix = Matrix4x4.identity;
 #if UNITY_EDITOR
-            Handles.Label( transform.position + Vector3.up * 2, "Wall:" + gameObject.name);
+            Handles.Label( transform.position + Vector3.up * 2, _locationSO.SceneName);
 #endif
         }
     }

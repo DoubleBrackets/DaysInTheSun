@@ -32,7 +32,7 @@ public class SceneTransitionUI : MonoBehaviour
     {
         _fadeInCanvasGroup.alpha = 1;
         _fadeOutCanvasGroup.alpha = 0;
-        await UniTask.Delay(4000);
+        await UniTask.Delay(3000);
 
         _fadeInCanvasGroup.DOFade(0, 2f);
         await UniTask.Delay(2000);

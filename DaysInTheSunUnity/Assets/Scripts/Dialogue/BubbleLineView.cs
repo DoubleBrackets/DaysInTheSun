@@ -48,6 +48,11 @@ public class BubbleLineView : DialogueViewBase
         _bubbleCanvasGroup.alpha = 0f;
     }
 
+    private void OnDestroy()
+    {
+        DialogueService.Instance.RemoveView(this);
+    }
+
     public override void DialogueStarted()
     {
         // Debug.Log("Dialogue Started");
@@ -117,8 +122,7 @@ public class BubbleLineView : DialogueViewBase
         }
         catch (Exception e)
         {
-            Console.WriteLine(e);
-            throw;
+            return;
         }
     }
 

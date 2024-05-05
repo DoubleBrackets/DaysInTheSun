@@ -56,4 +56,16 @@ public class DialogueService : MonoBehaviour
         views.Add(view);
         _dialogueRunner.SetDialogueViews(views.ToArray());
     }
+    
+    public void RemoveView(DialogueViewBase view)
+    {
+        var views = _dialogueRunner.dialogueViews.ToList();
+        views.Remove(view);
+        _dialogueRunner.SetDialogueViews(views.ToArray());
+    }
+    
+    public void EndDialogue()
+    {
+        _dialogueRunner.Stop();
+    }
 }
