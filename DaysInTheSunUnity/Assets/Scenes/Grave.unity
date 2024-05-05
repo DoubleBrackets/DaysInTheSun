@@ -7541,6 +7541,21 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3080798485962669138, guid: 99df5ba014eb61948b0f8db1676198d2,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.9411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 3080798485962669138, guid: 99df5ba014eb61948b0f8db1676198d2,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.63529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 3080798485962669138, guid: 99df5ba014eb61948b0f8db1676198d2,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.72156864
+      objectReference: {fileID: 0}
     - target: {fileID: 3798396949552083788, guid: 99df5ba014eb61948b0f8db1676198d2,
         type: 3}
       propertyPath: m_Camera
@@ -7586,74 +7601,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6783279053090137147, guid: 99df5ba014eb61948b0f8db1676198d2,
-        type: 3}
-      propertyPath: _text
-      value: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-      objectReference: {fileID: 0}
-    - target: {fileID: 6783279053090137147, guid: 99df5ba014eb61948b0f8db1676198d2,
-        type: 3}
-      propertyPath: typewriterStartsAutomatically
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 314292678669110021, guid: 99df5ba014eb61948b0f8db1676198d2,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2016067408273839344}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99df5ba014eb61948b0f8db1676198d2, type: 3}
---- !u!1 &2016067408273839343 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 314292678669110021, guid: 99df5ba014eb61948b0f8db1676198d2,
-    type: 3}
-  m_PrefabInstance: {fileID: 2016067408273839342}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2016067408273839344
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2016067408273839343}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57a6945b90dcd0c4b81619c0d8b5c283, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  useTypeWriter: 1
-  startTypewriterMode: 3
-  hideAppearancesOnSkip: 0
-  hideDisappearancesOnSkip: 1
-  triggerEventsOnSkip: 0
-  resetTypingSpeedAtStartup: 1
-  disappearanceOrientation: 0
-  onTextShowed:
-    m_PersistentCalls:
-      m_Calls: []
-  onTypewriterStart:
-    m_PersistentCalls:
-      m_Calls: []
-  onTextDisappeared:
-    m_PersistentCalls:
-      m_Calls: []
-  onCharacterVisible:
-    m_PersistentCalls:
-      m_Calls: []
-  onMessage:
-    m_PersistentCalls:
-      m_Calls: []
-  waitForNormalChars: 0.03
-  waitLong: 0.6
-  waitMiddle: 0.2
-  avoidMultiplePunctuactionWait: 0
-  waitForNewLines: 1
-  waitForLastCharacter: 1
-  useTypewriterWaitForDisappearances: 1
-  disappearanceWaitTime: 0.015
-  disappearanceSpeedMultiplier: 1
 --- !u!1001 &6797155911741469901
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7820,6 +7772,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3360129236122914535, guid: 44da99e9f5c96b44d93a099abd850478,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.5529412
+      objectReference: {fileID: 0}
+    - target: {fileID: 3360129236122914535, guid: 44da99e9f5c96b44d93a099abd850478,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.69803923
+      objectReference: {fileID: 0}
+    - target: {fileID: 3360129236122914535, guid: 44da99e9f5c96b44d93a099abd850478,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.92941177
+      objectReference: {fileID: 0}
     - target: {fileID: 3519070236179808761, guid: 44da99e9f5c96b44d93a099abd850478,
         type: 3}
       propertyPath: m_Camera
@@ -7860,11 +7827,6 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6504233630751413902, guid: 44da99e9f5c96b44d93a099abd850478,
-        type: 3}
-      propertyPath: typewriterStartsAutomatically
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6522803472974035102, guid: 44da99e9f5c96b44d93a099abd850478,
         type: 3}
       propertyPath: m_Name
@@ -7873,61 +7835,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 16947717901875632, guid: 44da99e9f5c96b44d93a099abd850478,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8641633948043678428}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44da99e9f5c96b44d93a099abd850478, type: 3}
---- !u!1 &8641633948043678427 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 16947717901875632, guid: 44da99e9f5c96b44d93a099abd850478,
-    type: 3}
-  m_PrefabInstance: {fileID: 8641633948043678426}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &8641633948043678428
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8641633948043678427}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57a6945b90dcd0c4b81619c0d8b5c283, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  useTypeWriter: 1
-  startTypewriterMode: 3
-  hideAppearancesOnSkip: 0
-  hideDisappearancesOnSkip: 1
-  triggerEventsOnSkip: 0
-  resetTypingSpeedAtStartup: 1
-  disappearanceOrientation: 0
-  onTextShowed:
-    m_PersistentCalls:
-      m_Calls: []
-  onTypewriterStart:
-    m_PersistentCalls:
-      m_Calls: []
-  onTextDisappeared:
-    m_PersistentCalls:
-      m_Calls: []
-  onCharacterVisible:
-    m_PersistentCalls:
-      m_Calls: []
-  onMessage:
-    m_PersistentCalls:
-      m_Calls: []
-  waitForNormalChars: 0.03
-  waitLong: 0.6
-  waitMiddle: 0.2
-  avoidMultiplePunctuactionWait: 0
-  waitForNewLines: 1
-  waitForLastCharacter: 1
-  useTypewriterWaitForDisappearances: 1
-  disappearanceWaitTime: 0.015
-  disappearanceSpeedMultiplier: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

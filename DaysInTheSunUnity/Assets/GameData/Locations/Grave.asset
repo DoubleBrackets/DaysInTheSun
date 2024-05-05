@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Grave
   m_EditorClassIdentifier: 
   <SceneName>k__BackingField: Grave
-  <TitleText>k__BackingField: 'I: Dead, but not gone '
+  <TitleText>k__BackingField: 'I: The dead rarely leave the living alone'
   <BackgroundMusic>k__BackingField: {fileID: 8300000, guid: de693cf0a9f74e44c857b4eadfe11a4c,
     type: 3}
   <AmbientSound>k__BackingField: {fileID: 8300000, guid: 93b042dcdcb6f1b4cb64a31fee856c5b,

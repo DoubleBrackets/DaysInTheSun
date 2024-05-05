@@ -3,12 +3,11 @@ tags:
 ---
 <<wait 4>>
 f: Hello Kira, it is 3pm
-f: Would you like to record an anecdote today
+f: Would you like to record an anecdote today?
 
 p: <shake a=.5>Clear alert</shake>
 
-f: <wave a=.5>Are you sure?</wave> You will lose your streak of
-f: 0 Days 
+f: <wave a=.5>Are you sure?</wave> You will lose your streak of 0 Days 
 
 p: Clear alert. 
 
@@ -26,78 +25,4 @@ f: Your friend Rae has suggested that you participate to help in your grieving p
 p: Well Rae doesn’t know everything ok?
 
 f: …
-f: Why do you think that Rae assigned this unit to you?
-
-p: When Basil died it took me off guard ok?
-p: I didn’t see it coming. 
-p: It just shocked me, and that looked a lot like grief. 
-
-f: Denial is one of the stages of grief 
-
-p: It's <shake a=,5> not grief </shake> ok?
-p: It was a long time coming anyway. 
-
-f: had this happened before?
-
-p: you have access to Basil's records 
-p: look for yourself.
-
-f: My primary function is to assist you
-f: Basil's record are just numbers 
-
-p: ...
-p: fine
--> It happened last spring 
--> It happened after he got sick
-p: Basil was bedridden for a week
-p: I pretty much came to terms with it then
-p: got all my <wave a=.5>goodbyes</wave> out of the way
-
-f: Did Basil think he was going to die?
-
-p: I never knew 
-p: To be honest I didn't ask
-p: I always felt if he said yes that...
-
-f: That what?
-
-p: Never mind. 
-p: Point is I was so ready for it then.
-p: That when it happened now...
-p: I just assumed it'd be fine. 
-
-f: I see
-f: what was the last thing you said to Basil?
-
-p: I don't want to talk about this. 
-
-f: Ok.
-f: ...
-f: Do you think that Basil would have liked this spot?
-
-p: Here?
-p: Heck no. 
-p: That's why I chose it. 
-
-f: Do you resent Basil?
-
-p: ...
-p: No
-p: I don't think so
-p: It's not that
-p: I just-
-p: He raised me here
-p: from <shake a=.5>such</shake> a young age 
-p: He taught me <wave a=.5>everything</wave> I know
-p: I don't really know where Basil ends and I begin
-
-f: You wanted to exert some control
-
-p: Yeah
-p: Make a choice I know he wouldn't
-
-f: Do you think that's disrespectful?
-
-p: I don't know
-p: I think he would've just thought it was funny
 ===
