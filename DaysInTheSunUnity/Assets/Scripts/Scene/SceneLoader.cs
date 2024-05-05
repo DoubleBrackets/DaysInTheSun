@@ -9,6 +9,15 @@ public class SceneLoader : MonoBehaviour
 {
     public static SceneLoader Instance { get; private set; }
     
+    [SerializeField]
+    private SceneTransitionUI _sceneTransitionUI;
+    
+    [SerializeField]
+    private AudioSource _backgroundMusicAudioSource;
+    
+    [SerializeField]
+    private AudioSource _ambientSoundAudioSource;
+    
     private string currentLevel = String.Empty;
 
     private void Awake()
@@ -29,6 +38,8 @@ public class SceneLoader : MonoBehaviour
 
     public async UniTask LoadLevel(LocationSO location)
     {
+        await _sceneTransitionUI.FadeOut();
+        
         string sceneName = location.SceneName;
         
         if (SceneManager.GetSceneByName(currentLevel).isLoaded)
@@ -39,5 +50,30 @@ public class SceneLoader : MonoBehaviour
         await SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
         currentLevel = sceneName;
         SceneManager.SetActiveScene(SceneManager.GetSceneByName(sceneName));
+        
+        _sceneTransitionUI.SetTitleText(location.TitleText);
+        
+        if (location.BackgroundMusic != null)
+        {
+            _backgroundMusicAudioSource.clip = location.BackgroundMusic;
+            _backgroundMusicAudioSource.Play();
+        }
+        else
+        {
+            _backgroundMusicAudioSource.Stop();
+        
+        }
+        
+        if (location.AmbientSound != null)
+        {
+            _ambientSoundAudioSource.clip = location.AmbientSound;
+            _ambientSoundAudioSource.Play();
+        }
+        else
+        {
+            _ambientSoundAudioSource.Stop();
+        }
+        
+        await _sceneTransitionUI.FadeIn();
     }
 }

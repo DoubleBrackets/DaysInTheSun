@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <SceneName>k__BackingField: Grave
   <TitleText>k__BackingField: 'I: In which what comes next'
-  <BackgroundMusic>k__BackingField: {fileID: 0}
-  <AmbientSound>k__BackingField: {fileID: 0}
+  <BackgroundMusic>k__BackingField: {fileID: 8300000, guid: de693cf0a9f74e44c857b4eadfe11a4c,
+    type: 3}
+  <AmbientSound>k__BackingField: {fileID: 8300000, guid: 93b042dcdcb6f1b4cb64a31fee856c5b,
+    type: 3}

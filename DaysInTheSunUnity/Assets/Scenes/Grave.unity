@@ -7685,7 +7685,7 @@ PrefabInstance:
     - target: {fileID: 2502150191314442577, guid: ad7f6ffd6119ed940a189f8f9f48adca,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 36.5
+      value: 37
       objectReference: {fileID: 0}
     - target: {fileID: 2502150191314442577, guid: ad7f6ffd6119ed940a189f8f9f48adca,
         type: 3}
@@ -7745,21 +7745,6 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1912184818}
-    - target: {fileID: 779303941405429144, guid: 44da99e9f5c96b44d93a099abd850478,
-        type: 3}
-      propertyPath: m_Lens.FieldOfView
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 1285680596322089506, guid: 44da99e9f5c96b44d93a099abd850478,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.506
-      objectReference: {fileID: 0}
-    - target: {fileID: 1285680596322089506, guid: 44da99e9f5c96b44d93a099abd850478,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -6.5
-      objectReference: {fileID: 0}
     - target: {fileID: 2492346199576460058, guid: 44da99e9f5c96b44d93a099abd850478,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -7875,78 +7860,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4347873955196622079, guid: 44da99e9f5c96b44d93a099abd850478,
-        type: 3}
-      propertyPath: Damping.x
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4347873955196622079, guid: 44da99e9f5c96b44d93a099abd850478,
-        type: 3}
-      propertyPath: CameraRadius
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4347873955196622079, guid: 44da99e9f5c96b44d93a099abd850478,
-        type: 3}
-      propertyPath: CameraDistance
-      value: 6.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4347873955196622079, guid: 44da99e9f5c96b44d93a099abd850478,
-        type: 3}
-      propertyPath: DampingIntoCollision
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5045713458154283501, guid: 44da99e9f5c96b44d93a099abd850478,
-        type: 3}
-      propertyPath: _inputProviderContainer
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6251081915192104628, guid: 44da99e9f5c96b44d93a099abd850478,
-        type: 3}
-      propertyPath: m_fontSize
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 6251081915192104628, guid: 44da99e9f5c96b44d93a099abd850478,
-        type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: 023011b9fbca14d1880bb338afa10aa5,
-        type: 2}
-    - target: {fileID: 6251081915192104628, guid: 44da99e9f5c96b44d93a099abd850478,
-        type: 3}
-      propertyPath: m_fontColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6251081915192104628, guid: 44da99e9f5c96b44d93a099abd850478,
-        type: 3}
-      propertyPath: m_fontColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6251081915192104628, guid: 44da99e9f5c96b44d93a099abd850478,
-        type: 3}
-      propertyPath: m_fontColor.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6251081915192104628, guid: 44da99e9f5c96b44d93a099abd850478,
-        type: 3}
-      propertyPath: m_fontSizeBase
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 6251081915192104628, guid: 44da99e9f5c96b44d93a099abd850478,
-        type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: 7388534442763710276, guid: 023011b9fbca14d1880bb338afa10aa5,
-        type: 2}
-    - target: {fileID: 6251081915192104628, guid: 44da99e9f5c96b44d93a099abd850478,
-        type: 3}
-      propertyPath: m_fontColor32.rgba
-      value: 4278190080
-      objectReference: {fileID: 0}
-    - target: {fileID: 6251081915192104628, guid: 44da99e9f5c96b44d93a099abd850478,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6281820129162255834, guid: 44da99e9f5c96b44d93a099abd850478,
         type: 3}
       propertyPath: m_SizeDelta.y
@@ -7956,26 +7869,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Protag
-      objectReference: {fileID: 0}
-    - target: {fileID: 6790123577646467205, guid: 44da99e9f5c96b44d93a099abd850478,
-        type: 3}
-      propertyPath: _inputProviderContainer
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7722161796827844092, guid: 44da99e9f5c96b44d93a099abd850478,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 0.5882353
-      objectReference: {fileID: 0}
-    - target: {fileID: 7722161796827844092, guid: 44da99e9f5c96b44d93a099abd850478,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 0.7462103
-      objectReference: {fileID: 0}
-    - target: {fileID: 7722161796827844092, guid: 44da99e9f5c96b44d93a099abd850478,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
