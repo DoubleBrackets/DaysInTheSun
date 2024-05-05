@@ -18,6 +18,9 @@ public class BubbleLineView : DialogueViewBase
     private string _characterName;
     
     [SerializeField]
+    private AudioManager.SoundType _voiceType;
+    
+    [SerializeField]
     private TMP_Text _tmpText;
     
     [SerializeField]
@@ -102,6 +105,8 @@ public class BubbleLineView : DialogueViewBase
         HoldText(displayText, _cancellationTokenSource.Token).Forget();
         
         _nextButton.onClick.AddListener(OnNextButtonClicked);
+        
+        AudioManager.Instance.PlaySound(_voiceType, transform.position);
     }
 
     private async UniTaskVoid HoldText(string text, CancellationToken token)

@@ -58,6 +58,7 @@ public class SceneLoader : MonoBehaviour
         if (location.BackgroundMusic != null)
         {
             _backgroundMusicAudioSource.clip = location.BackgroundMusic;
+            _backgroundMusicAudioSource.volume = location.BackgroundMusicVolume;
             _backgroundMusicAudioSource.Play();
         }
         else
@@ -69,6 +70,7 @@ public class SceneLoader : MonoBehaviour
         if (location.AmbientSound != null)
         {
             _ambientSoundAudioSource.clip = location.AmbientSound;
+            _ambientSoundAudioSource.volume = location.AmbientSoundVolume;
             _ambientSoundAudioSource.Play();
         }
         else

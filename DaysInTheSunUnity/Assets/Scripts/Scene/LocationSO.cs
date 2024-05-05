@@ -15,5 +15,11 @@ public class LocationSO : ScriptableObject
     public AudioClip BackgroundMusic { get; private set; }
     
     [field: SerializeField]
+    public float BackgroundMusicVolume { get; private set; }
+    
+    [field: SerializeField]
     public AudioClip AmbientSound { get; private set; }
+    
+    [field: SerializeField]
+    public float AmbientSoundVolume { get; private set; }
 }
