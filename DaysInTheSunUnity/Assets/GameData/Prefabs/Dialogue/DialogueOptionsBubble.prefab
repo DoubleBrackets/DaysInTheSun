@@ -165,7 +165,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 32
+    m_Bits: 0
 --- !u!114 &5845861428815735498
 MonoBehaviour:
   m_ObjectHideFlags: 0

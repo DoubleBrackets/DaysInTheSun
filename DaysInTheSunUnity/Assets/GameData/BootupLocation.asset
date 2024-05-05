@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55eba056484006746b7851c31cb5bb4d, type: 3}
   m_Name: BootupLocation
   m_EditorClassIdentifier: 
-  <InitialLocation>k__BackingField: {fileID: 11400000, guid: 4626ca660273450419e8518212622bd9,
+  <InitialLocation>k__BackingField: {fileID: 11400000, guid: 3819aebd0b3bc5d4698706a9f59fc15b,
     type: 2}
