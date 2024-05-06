@@ -4900,6 +4900,7 @@ GameObject:
   - component: {fileID: 8487103104637014771}
   - component: {fileID: 6593521810860378613}
   - component: {fileID: 4575468100018815447}
+  - component: {fileID: 1659601482919630832}
   m_Layer: 0
   m_Name: Body
   m_TagString: Player
@@ -4989,6 +4990,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _controller: {fileID: 6790123577646467205}
   _mesh: {fileID: 0}
+--- !u!114 &1659601482919630832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2998039278437780679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a36ff6ec1c1dd9b408917004aafefeec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _material: {fileID: 2100000, guid: a70aced3bf9772e4692e04af9e0b5003, type: 2}
 --- !u!1 &6522803472974035102
 GameObject:
   m_ObjectHideFlags: 0
@@ -5213,7 +5227,7 @@ Transform:
   m_GameObject: {fileID: 8356412725948741105}
   serializedVersion: 2
   m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: 0.5, y: 1.5060005, z: -6}
+  m_LocalPosition: {x: 0.5, y: 1.506, z: -6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
